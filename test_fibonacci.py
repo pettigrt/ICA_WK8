@@ -25,6 +25,7 @@ class TestFibonacci(unittest.TestCase):
     def test_fibonacci_invalid(self):
         self.assertEqual(0, fibonacci.fib(-3))
 
+
 class TestFactorial(unittest.TestCase):
     def test_factorial_zero(self):
         self.assertEqual(1, fibonacci.factorial(0))
